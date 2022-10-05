@@ -11,5 +11,7 @@ services:
      - /code/node_modules
     depends_on:
      - redis
+    networks:
+     - test
   redis:
     image: redis:alpine
