@@ -4,8 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-     - '3009:3000'
     volumes:
      - .:/code
      - /code/node_modules
