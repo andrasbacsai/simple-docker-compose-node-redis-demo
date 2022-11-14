@@ -5,7 +5,6 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-     - .:/code
      - /code/node_modules
     depends_on:
      - redis
